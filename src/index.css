@@ -1,3 +1,24 @@
-body{
-  font-family:  sans-serif;
+body {
+  font-family: sans-serif;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column-reverse; /* This makes the pieces fall to the bottom */
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  background-color: #fff;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
